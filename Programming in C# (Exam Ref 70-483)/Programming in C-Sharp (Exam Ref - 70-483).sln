@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Delegates", "Events\1.4. Delegates\1.4. Delegates.csproj", "{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Actions", "Events\1.4. Actions\1.4. Actions.csproj", "{06DBF89D-6809-469F-A041-8D5F45F876B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Lambda expressions", "Events\1.4. Lambda expressions\1.4. Lambda expressions.csproj", "{F3895C54-6A7C-4935-81AF-F8B63ADB69FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Events with args", "Events\1.4. Events with args\1.4. Events with args.csproj", "{69E95D9B-566C-47F5-8262-7A61755D3FCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Events with accessor", "Events\1.4. Events with accessor\1.4. Events with accessor.csproj", "{8386DC3E-E877-428E-9A90-C88596602E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Events and exceptions", "Events\1.4. Events and exceptions\1.4. Events and exceptions.csproj", "{41358805-9F6E-48D8-B81B-257F9D4517B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DBF89D-6809-469F-A041-8D5F45F876B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DBF89D-6809-469F-A041-8D5F45F876B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DBF89D-6809-469F-A041-8D5F45F876B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DBF89D-6809-469F-A041-8D5F45F876B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3895C54-6A7C-4935-81AF-F8B63ADB69FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3895C54-6A7C-4935-81AF-F8B63ADB69FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3895C54-6A7C-4935-81AF-F8B63ADB69FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3895C54-6A7C-4935-81AF-F8B63ADB69FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E95D9B-566C-47F5-8262-7A61755D3FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E95D9B-566C-47F5-8262-7A61755D3FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E95D9B-566C-47F5-8262-7A61755D3FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E95D9B-566C-47F5-8262-7A61755D3FCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8386DC3E-E877-428E-9A90-C88596602E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8386DC3E-E877-428E-9A90-C88596602E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8386DC3E-E877-428E-9A90-C88596602E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8386DC3E-E877-428E-9A90-C88596602E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDBC5688-1BA9-4F65-B6A8-D3F4F76459CE} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{06DBF89D-6809-469F-A041-8D5F45F876B9} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{F3895C54-6A7C-4935-81AF-F8B63ADB69FE} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{69E95D9B-566C-47F5-8262-7A61755D3FCB} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{8386DC3E-E877-428E-9A90-C88596602E5C} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{41358805-9F6E-48D8-B81B-257F9D4517B3} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+	EndGlobalSection
+EndGlobal
