@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1. Task sample", "Multith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1. Parent task", "Multithreading and async\1.1. Parent task\1.1. Parent task.csproj", "{ADD0A8E9-F234-47DB-BDE7-5507EF4B9BA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.1. Using ConfigureAwait", "Multithreading and async\1.1. Using ConfigureAwait\1.1. Using ConfigureAwait.csproj", "{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{ADD0A8E9-F234-47DB-BDE7-5507EF4B9BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD0A8E9-F234-47DB-BDE7-5507EF4B9BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD0A8E9-F234-47DB-BDE7-5507EF4B9BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -111,5 +117,6 @@ Global
 		{03A24F28-F7BC-4091-ADDF-12DA56FA0E86} = {A075FCC2-EEB8-4A47-B2FC-E88000DD2C63}
 		{E7D91FE0-64C3-4E6E-9943-1831626A7250} = {A075FCC2-EEB8-4A47-B2FC-E88000DD2C63}
 		{ADD0A8E9-F234-47DB-BDE7-5507EF4B9BA4} = {A075FCC2-EEB8-4A47-B2FC-E88000DD2C63}
+		{670C3278-A54F-4CE1-8CC6-3AC1AFD1935D} = {A075FCC2-EEB8-4A47-B2FC-E88000DD2C63}
 	EndGlobalSection
 EndGlobal

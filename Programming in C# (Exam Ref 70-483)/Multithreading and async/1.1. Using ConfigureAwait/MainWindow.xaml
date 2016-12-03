@@ -1,0 +1,19 @@
+﻿<Window x:Class="ProgrammingInCSharp.ConfigureAwait.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Using ConfigureAwait" Height="204" Width="369">
+
+    <Grid>
+        <Label x:Name="currentTimeLabel" Content="Time:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="currentTimerLabel" Content="" HorizontalAlignment="Left" Margin="82,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+
+        <Label x:Name="responseContentLabel" Content="Response:" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" FontSize="24" Visibility="Hidden"/>
+        <Label x:Name="responseContentLengthLabel" Content="" HorizontalAlignment="Left" Margin="132,52,0,0" VerticalAlignment="Top" FontSize="24" Visibility="Hidden"/>
+
+        <Button x:Name="writeResponseAsyncButton" Content="Write response to file async" Margin="94,106,93,0" VerticalAlignment="Top" Click="OnWriteResponseAsyncButtonClicked"/>
+        <Button x:Name="writeResponseSyncButton" Content="Write response to file sync" Margin="94,131,93,0" VerticalAlignment="Top" Click="OnWriteResponseSyncButtonClicked"/>
+    </Grid>
+</Window>
