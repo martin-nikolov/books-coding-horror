@@ -17,6 +17,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Events with accessor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4. Events and exceptions", "Events\1.4. Events and exceptions\1.4. Events and exceptions.csproj", "{41358805-9F6E-48D8-B81B-257F9D4517B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Access", "Data Access", "{C93AAA79-E7DC-484D-96BE-156D770CC709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1. Encoding and decoding", "Data Access\4.1. Encoding and decoding\4.1. Encoding and decoding.csproj", "{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1. Using BufferedStream", "Data Access\4.1. Using BufferedStream\4.1. Using BufferedStream.csproj", "{E90C1314-E719-4B90-AFBE-D82343524773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1. Async linear operations", "Data Access\4.1. Async linear operations\4.1. Async linear operations.csproj", "{F88A7753-EF09-4DD5-8205-CA169C6A74E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1. Async parallel operations", "Data Access\4.1. Async parallel operations\4.1. Async parallel operations.csproj", "{A0963296-3351-415F-9011-0C97290CB07F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +57,22 @@ Global
 		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41358805-9F6E-48D8-B81B-257F9D4517B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90C1314-E719-4B90-AFBE-D82343524773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90C1314-E719-4B90-AFBE-D82343524773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90C1314-E719-4B90-AFBE-D82343524773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90C1314-E719-4B90-AFBE-D82343524773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88A7753-EF09-4DD5-8205-CA169C6A74E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88A7753-EF09-4DD5-8205-CA169C6A74E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88A7753-EF09-4DD5-8205-CA169C6A74E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88A7753-EF09-4DD5-8205-CA169C6A74E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0963296-3351-415F-9011-0C97290CB07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0963296-3351-415F-9011-0C97290CB07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0963296-3351-415F-9011-0C97290CB07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0963296-3351-415F-9011-0C97290CB07F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +84,9 @@ Global
 		{69E95D9B-566C-47F5-8262-7A61755D3FCB} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
 		{8386DC3E-E877-428E-9A90-C88596602E5C} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
 		{41358805-9F6E-48D8-B81B-257F9D4517B3} = {7B2C2D61-20B0-40AF-99D8-77E8263ADF0D}
+		{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2} = {C93AAA79-E7DC-484D-96BE-156D770CC709}
+		{E90C1314-E719-4B90-AFBE-D82343524773} = {C93AAA79-E7DC-484D-96BE-156D770CC709}
+		{F88A7753-EF09-4DD5-8205-CA169C6A74E1} = {C93AAA79-E7DC-484D-96BE-156D770CC709}
+		{A0963296-3351-415F-9011-0C97290CB07F} = {C93AAA79-E7DC-484D-96BE-156D770CC709}
 	EndGlobalSection
 EndGlobal

@@ -250,3 +250,5 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/Programming in C# (Exam Ref 70-483)/Data Access/4.1. Encoding and decoding/output.txt
+/Programming in C# (Exam Ref 70-483)/Data Access/4.1. Encoding and decoding/output_compressed.gz
