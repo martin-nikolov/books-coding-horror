@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A70F53B-2F64-4C66-AAAD-2C7D9129A1D2}</ProjectGuid>
+    <ProjectGuid>{03A24F28-F7BC-4091-ADDF-12DA56FA0E86}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProgrammingInCSharp.EncodingDecoding</RootNamespace>
-    <AssemblyName>ProgrammingInCSharp.EncodingDecoding</AssemblyName>
+    <RootNamespace>ProgrammingInCSharp.ThreadSample</RootNamespace>
+    <AssemblyName>ProgrammingInCSharp.ThreadSample</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EncodingDecoding.cs" />
+    <Compile Include="ThreadSample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

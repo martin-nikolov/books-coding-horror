@@ -1,4 +1,4 @@
-﻿namespace ProgrammingInCSharp.Actions
+﻿namespace Events.Actions
 {
     using System;
 

@@ -7,8 +7,8 @@
     <ProjectGuid>{E90C1314-E719-4B90-AFBE-D82343524773}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataAccess.UsingBufferedStream</RootNamespace>
-    <AssemblyName>DataAccess.UsingBufferedStream</AssemblyName>
+    <RootNamespace>ProgrammingInCSharp.UsingBufferedStream</RootNamespace>
+    <AssemblyName>ProgrammingInCSharp.UsingBufferedStream</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -1,4 +1,4 @@
-﻿namespace DataAccess.UsingBufferedStream
+﻿namespace ProgrammingInCSharp.UsingBufferedStream
 {
     using System;
     using System.Diagnostics;
