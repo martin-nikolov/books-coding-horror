@@ -1,4 +1,4 @@
-﻿namespace Events.Actions
+﻿namespace ProgrammingInCSharp.Actions
 {
     using System;
 
@@ -7,6 +7,9 @@
         private static void Main()
         {
             var pub = new Pub();
+
+            pub.Subscribe(() => { Console.WriteLine("Test 1"); });
+            pub.Subscribe(() => { Console.WriteLine("Test 2"); });
 
             pub.Raise();
 

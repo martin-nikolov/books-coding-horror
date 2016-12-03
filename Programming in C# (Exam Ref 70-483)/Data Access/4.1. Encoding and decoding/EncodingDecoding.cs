@@ -1,4 +1,4 @@
-﻿namespace DataAccess.EncodingDecoding
+﻿namespace ProgrammingInCSharp.EncodingDecoding
 {
     using System;
     using System.Diagnostics;

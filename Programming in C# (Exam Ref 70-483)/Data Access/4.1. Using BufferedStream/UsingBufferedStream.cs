@@ -3,9 +3,6 @@
     using System;
     using System.Diagnostics;
     using System.IO;
-    using System.IO.Compression;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class UsingBufferedStream
     {
