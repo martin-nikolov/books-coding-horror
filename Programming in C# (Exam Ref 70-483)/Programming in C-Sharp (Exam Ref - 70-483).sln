@@ -45,6 +45,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5. Throw custom exception
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5. Break exception handling", "Exception handling\1.5. Break exception handling\1.5. Break exception handling.csproj", "{6BC9926D-61C3-4949-9F61-334C88DD8AF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.5. Using ExceptionDispatchInfo", "Exception handling\1.5. Using ExceptionDispatchInfo\1.5. Using ExceptionDispatchInfo.csproj", "{2E8DA0D5-507A-4F27-8E24-A1C525398C00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object life cycle", "Object life cycle", "{59759648-AA0C-4F40-BFD4-B268FBDED479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.6. Disposable and finalizer", "Object life cycle\2.6. Disposable and finalizer\2.6. Disposable and finalizer.csproj", "{21F9D9E8-6150-40DC-8914-11AADB156E5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +125,14 @@ Global
 		{6BC9926D-61C3-4949-9F61-334C88DD8AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BC9926D-61C3-4949-9F61-334C88DD8AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BC9926D-61C3-4949-9F61-334C88DD8AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8DA0D5-507A-4F27-8E24-A1C525398C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8DA0D5-507A-4F27-8E24-A1C525398C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8DA0D5-507A-4F27-8E24-A1C525398C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8DA0D5-507A-4F27-8E24-A1C525398C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F9D9E8-6150-40DC-8914-11AADB156E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F9D9E8-6150-40DC-8914-11AADB156E5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F9D9E8-6150-40DC-8914-11AADB156E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F9D9E8-6150-40DC-8914-11AADB156E5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -141,5 +155,7 @@ Global
 		{BEB28371-4096-4B31-80D0-9B6CA1A39E4D} = {0398934E-E470-402D-8A76-231A111A9975}
 		{4FFD2A1A-73CD-4673-B7DB-9422FBC13BF4} = {0398934E-E470-402D-8A76-231A111A9975}
 		{6BC9926D-61C3-4949-9F61-334C88DD8AF4} = {0398934E-E470-402D-8A76-231A111A9975}
+		{2E8DA0D5-507A-4F27-8E24-A1C525398C00} = {0398934E-E470-402D-8A76-231A111A9975}
+		{21F9D9E8-6150-40DC-8914-11AADB156E5F} = {59759648-AA0C-4F40-BFD4-B268FBDED479}
 	EndGlobalSection
 EndGlobal
