@@ -252,3 +252,5 @@ paket-files/
 *.sln.iml
 /Programming in C# (Exam Ref 70-483)/Data Access/4.1. Encoding and decoding/output.txt
 /Programming in C# (Exam Ref 70-483)/Data Access/4.1. Encoding and decoding/output_compressed.gz
+/Pro ASP.NET MVC 4/Dependency Injection/6.1. DependencyInjection.Ninject/Web.Debug.config
+/Pro ASP.NET MVC 4/Dependency Injection/6.1. DependencyInjection.Ninject/Web.Release.config
