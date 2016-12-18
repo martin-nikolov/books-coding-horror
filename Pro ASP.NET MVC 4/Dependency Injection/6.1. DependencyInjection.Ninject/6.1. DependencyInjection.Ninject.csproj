@@ -95,6 +95,7 @@
     <Compile Include="Infrastructure\ObjectFactory.cs" />
     <Compile Include="Registries\INinjectBindingsRegister.cs" />
     <Compile Include="Registries\ServiceBindingsRegister.cs" />
+    <Compile Include="Services\FlexibleDiscountHelper.cs" />
     <Compile Include="Services\DefaultDiscountHelper.cs" />
     <Compile Include="Services\DefaultPriceCalculator.cs" />
     <Compile Include="Services\IDiscountHelper.cs" />

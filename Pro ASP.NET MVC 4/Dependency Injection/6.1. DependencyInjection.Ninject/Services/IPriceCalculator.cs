@@ -6,5 +6,7 @@
     public interface IPriceCalculator
     {
         decimal CalculateTotalPrice(IEnumerable<Product> products);
+
+        decimal ApplyDiscount(decimal totalPrice);
     }
 }

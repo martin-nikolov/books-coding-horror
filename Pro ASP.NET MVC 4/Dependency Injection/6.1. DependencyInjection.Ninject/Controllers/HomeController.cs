@@ -27,10 +27,12 @@
             IDiscountHelper discountHelper = ObjectFactory.GetInstance<IDiscountHelper>();
 
             decimal totalPrice = this.priceCalculator.CalculateTotalPrice(products);
-            decimal totalPriceWithDiscount = discountHelper.ApplyDiscount(totalPrice);
+            decimal totalPriceWithDefaultDiscount = this.priceCalculator.ApplyDiscount(totalPrice);
+            decimal totalPriceWithCustomDiscount = discountHelper.ApplyDiscount(totalPrice);
 
             this.ViewBag.TotalPrice = totalPrice;
-            this.ViewBag.TotalPriceWithDiscount = totalPriceWithDiscount;
+            this.ViewBag.TotalPriceWithDefaultDiscount = totalPriceWithDefaultDiscount;
+            this.ViewBag.TotalPriceWithCustomDiscount = totalPriceWithCustomDiscount;
 
             return this.View();
         }

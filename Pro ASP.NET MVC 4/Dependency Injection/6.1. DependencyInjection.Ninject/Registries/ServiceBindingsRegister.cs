@@ -11,6 +11,7 @@
         {
             kernel.Bind<IPriceCalculator>().To<DefaultPriceCalculator>();
             kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument<decimal>(ServiceBindingsRegister.DefaultDiscountPercentage);
+            kernel.Bind<IDiscountHelper>().To<FlexibleDiscountHelper>().WhenInjectedInto<DefaultPriceCalculator>();
         }
     }
 }
