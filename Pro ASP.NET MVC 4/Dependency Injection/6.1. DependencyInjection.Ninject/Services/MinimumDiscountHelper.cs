@@ -18,7 +18,6 @@
                 throw new ArgumentException("totalPrice cannot be less than 0.");
             }
 
-
             if (totalPrice > 100)
             {
                 return totalPrice * .9m;

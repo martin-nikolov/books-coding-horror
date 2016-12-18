@@ -15,7 +15,7 @@
     public class MinimumDiscountHelper_ApplyDiscount_Should
     {
         [TestMethod]
-        public void When_DiscountIsAbove100()
+        public void Returns_PriceWithDiscountOf10Percent_When_PriceIsAbove100()
         {
             // Arrange
             var discountHelper = this.GetDiscountHelperInstance();
@@ -30,7 +30,7 @@
         }
 
         [TestMethod]
-        public void When_DiscountIsBetween10And100()
+        public void Returns_PriceWithDiscountOf5Dollars_When_PriceIsBetween10And100()
         {
             // Arrange
             var discountHelper = this.GetDiscountHelperInstance();
@@ -47,7 +47,7 @@
         }
 
         [TestMethod]
-        public void When_DiscountIsLessThan10()
+        public void Returns_SamePriceWithoutDiscount_When_PriceIsLessThan10()
         {
             // Arrange
             var discountHelper = this.GetDiscountHelperInstance();
@@ -63,7 +63,7 @@
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException))]
-        public void ThrowsException_OnNegativeTotalPrice()
+        public void ThrowsException_When_PriceIsNegativeNumber()
         {
             // Arrange
             var discountHelper = this.GetDiscountHelperInstance();
