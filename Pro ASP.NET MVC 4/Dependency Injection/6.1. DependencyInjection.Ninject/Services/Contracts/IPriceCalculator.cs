@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection.Ninject.Services
+﻿namespace DependencyInjection.Ninject.Services.Contracts
 {
     using System.Collections.Generic;
     using DependencyInjection.Ninject.Models;

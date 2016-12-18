@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1. DependencyInjection.Ninject", "Dependency Injection\6.1. DependencyInjection.Ninject\6.1. DependencyInjection.Ninject.csproj", "{30C35A09-FFC8-4488-A15F-58CA7A62EA32}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injection", "Dependency Injection", "{46B45F7B-A909-4BA2-A716-2353D9EAE5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1. DependencyInjection.Ninject.Tests", "Dependency Injection\6.1. DependencyInjection.Ninject.Tests\6.1. DependencyInjection.Ninject.Tests.csproj", "{A3E74CC1-8F53-4514-9E01-8808BD93B9F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +19,16 @@ Global
 		{30C35A09-FFC8-4488-A15F-58CA7A62EA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C35A09-FFC8-4488-A15F-58CA7A62EA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C35A09-FFC8-4488-A15F-58CA7A62EA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{30C35A09-FFC8-4488-A15F-58CA7A62EA32} = {46B45F7B-A909-4BA2-A716-2353D9EAE5F9}
+		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9} = {46B45F7B-A909-4BA2-A716-2353D9EAE5F9}
 	EndGlobalSection
 EndGlobal

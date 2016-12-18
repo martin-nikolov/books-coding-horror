@@ -1,4 +1,4 @@
-﻿namespace DependencyInjection.Ninject.Services
+﻿namespace DependencyInjection.Ninject.Services.Contracts
 {
     public interface IDiscountHelper
     {

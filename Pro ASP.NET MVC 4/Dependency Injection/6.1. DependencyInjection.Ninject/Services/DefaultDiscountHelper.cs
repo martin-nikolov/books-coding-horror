@@ -1,17 +1,19 @@
 ﻿namespace DependencyInjection.Ninject.Services
 {
+    using DependencyInjection.Ninject.Services.Contracts;
+
     public class DefaultDiscountHelper : IDiscountHelper
     {
-        private readonly decimal discountSize;
+        private readonly decimal discountPercent;
 
-        public DefaultDiscountHelper(decimal discountSize)
+        public DefaultDiscountHelper(decimal discountPercent)
         {
-            this.discountSize = discountSize;
+            this.discountPercent = discountPercent;
         }
 
         public decimal ApplyDiscount(decimal totalPrice)
         {
-            return totalPrice - (this.discountSize / 100m * totalPrice);
+            return totalPrice - (this.discountPercent / 100m * totalPrice);
         }
     }
 }

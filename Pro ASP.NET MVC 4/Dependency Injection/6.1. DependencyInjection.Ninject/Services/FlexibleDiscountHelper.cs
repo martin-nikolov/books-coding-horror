@@ -1,5 +1,7 @@
 ﻿namespace DependencyInjection.Ninject.Services
 {
+    using DependencyInjection.Ninject.Services.Contracts;
+
     public class FlexibleDiscountHelper : IDiscountHelper
     {
         public decimal ApplyDiscount(decimal totalPrice)

@@ -1,6 +1,7 @@
 ﻿namespace DependencyInjection.Ninject.Registries
 {
     using DependencyInjection.Ninject.Services;
+    using DependencyInjection.Ninject.Services.Contracts;
     using global::Ninject;
 
     public class ServiceBindingsRegister : INinjectBindingsRegister
