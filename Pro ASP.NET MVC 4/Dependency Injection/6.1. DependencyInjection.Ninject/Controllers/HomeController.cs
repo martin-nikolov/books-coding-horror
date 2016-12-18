@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Web.Mvc;
+    using DependencyInjection.Ninject.Infrastructure;
     using DependencyInjection.Ninject.Models;
     using DependencyInjection.Ninject.Services;
 
@@ -23,8 +24,13 @@
                 new Product("Product 3", 300)
             };
 
-            var totalPrice = this.valueCalculator.CalculateTotalPrice(products);
+            IDiscountHelper discountHelper = ObjectFactory.GetInstance<IDiscountHelper>();
+
+            decimal totalPrice = this.valueCalculator.CalculateTotalPrice(products);
+            decimal totalPriceWithDiscount = discountHelper.ApplyDiscount(totalPrice);
+
             this.ViewBag.TotalPrice = totalPrice;
+            this.ViewBag.TotalPriceWithDiscount = totalPriceWithDiscount;
 
             return this.View();
         }

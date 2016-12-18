@@ -3,5 +3,6 @@
 }
 
 <div class="jumbotron" style="margin-top: 50px;">
-    <p>Total price: @ViewBag.TotalPrice</p>
+    <p>Total price: @string.Format("{0:C}", ViewBag.TotalPrice)</p>
+    <p>Total price with discount: @string.Format("{0:C}", ViewBag.TotalPriceWithDiscount)</p>
 </div>

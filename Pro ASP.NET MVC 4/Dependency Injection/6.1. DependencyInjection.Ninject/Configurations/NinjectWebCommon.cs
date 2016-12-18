@@ -7,6 +7,7 @@ namespace DependencyInjection.Ninject.Configurations
     using System.Linq;
     using System.Reflection;
     using System.Web;
+    using DependencyInjection.Ninject.Infrastructure;
     using DependencyInjection.Ninject.Registries;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
@@ -42,6 +43,8 @@ namespace DependencyInjection.Ninject.Configurations
         private static IKernel CreateKernel()
         {
             var kernel = new StandardKernel();
+            ObjectFactory.InitializeKernel(kernel);
+
             try
             {
                 kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
