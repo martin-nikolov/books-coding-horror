@@ -96,9 +96,9 @@
     <Compile Include="Registries\INinjectBindingsRegister.cs" />
     <Compile Include="Registries\ServiceBindingsRegister.cs" />
     <Compile Include="Services\DefaultDiscountHelper.cs" />
-    <Compile Include="Services\DefaultValueCalculator.cs" />
+    <Compile Include="Services\DefaultPriceCalculator.cs" />
     <Compile Include="Services\IDiscountHelper.cs" />
-    <Compile Include="Services\IValueCalculator.cs" />
+    <Compile Include="Services\IPriceCalculator.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

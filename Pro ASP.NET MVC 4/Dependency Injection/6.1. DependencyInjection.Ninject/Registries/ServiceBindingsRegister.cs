@@ -9,7 +9,7 @@
 
         public void Register(IKernel kernel)
         {
-            kernel.Bind<IValueCalculator>().To<DefaultValueCalculator>();
+            kernel.Bind<IPriceCalculator>().To<DefaultPriceCalculator>();
             kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument<decimal>(ServiceBindingsRegister.DefaultDiscountPercentage);
         }
     }

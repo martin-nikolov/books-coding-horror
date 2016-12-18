@@ -3,7 +3,7 @@
     using System.Collections.Generic;
     using DependencyInjection.Ninject.Models;
 
-    public interface IValueCalculator
+    public interface IPriceCalculator
     {
         decimal CalculateTotalPrice(IEnumerable<Product> products);
     }

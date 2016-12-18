@@ -8,11 +8,11 @@
 
     public class HomeController : Controller
     {
-        private readonly IValueCalculator valueCalculator;
+        private readonly IPriceCalculator priceCalculator;
 
-        public HomeController(IValueCalculator valueCalculator)
+        public HomeController(IPriceCalculator priceCalculator)
         {
-            this.valueCalculator = valueCalculator;       
+            this.priceCalculator = priceCalculator;       
         }
 
         public ActionResult Index()
@@ -26,7 +26,7 @@
 
             IDiscountHelper discountHelper = ObjectFactory.GetInstance<IDiscountHelper>();
 
-            decimal totalPrice = this.valueCalculator.CalculateTotalPrice(products);
+            decimal totalPrice = this.priceCalculator.CalculateTotalPrice(products);
             decimal totalPriceWithDiscount = discountHelper.ApplyDiscount(totalPrice);
 
             this.ViewBag.TotalPrice = totalPrice;

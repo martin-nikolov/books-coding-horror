@@ -4,7 +4,7 @@
     using System.Linq;
     using DependencyInjection.Ninject.Models;
 
-    public class DefaultValueCalculator : IValueCalculator
+    public class DefaultPriceCalculator : IPriceCalculator
     {
         public decimal CalculateTotalPrice(IEnumerable<Product> products)
         {
