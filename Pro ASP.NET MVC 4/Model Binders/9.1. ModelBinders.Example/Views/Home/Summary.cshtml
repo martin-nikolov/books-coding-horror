@@ -1,0 +1,10 @@
+﻿@model global::ModelBinders.Example.Models.Card
+
+@{
+    ViewBag.Title = "Summary";
+}
+
+<div class="jumbotron" style="margin-top: 50px;">
+    <p>Card: @Model.Id</p>
+    <p>Created on: @Model.CreatedOn.ToLongTimeString()</p>
+</div>

@@ -4,7 +4,6 @@
     using System.Web.Mvc;
     using DependencyInjection.Ninject.Infrastructure;
     using DependencyInjection.Ninject.Models;
-    using DependencyInjection.Ninject.Services;
     using DependencyInjection.Ninject.Services.Contracts;
 
     public class HomeController : Controller
