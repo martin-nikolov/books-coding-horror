@@ -3,5 +3,6 @@
 }
 
 <div class="jumbotron" style="margin-top: 50px;">
-    @ViewBag.Title
+    <div>Elapsed seconds: @TempData["ElapsedTime"] milliseconds</div>
+    <div>Random text: @Guid.NewGuid()</div>
 </div>
