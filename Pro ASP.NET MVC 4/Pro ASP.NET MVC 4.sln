@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1. DependencyInjection.Ninject", "Dependency Injection\6.1. DependencyInjection.Ninject\6.1. DependencyInjection.Ninject.csproj", "{30C35A09-FFC8-4488-A15F-58CA7A62EA32}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model Binders", "Model Binders", "{F935BCF0-7E1B-436F-80CE-D5CC65C6C2C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1. ModelBinders.Example", "Model Binders\9.1. ModelBinders.Example\9.1. ModelBinders.Example.csproj", "{C85A54A5-09E1-4598-999A-8F79FB36603B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routes", "Routes", "{4AA761A7-7525-4851-9661-6F0F00C0633F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.1. CustomRouteHandler.Example", "Routes\14.1. CustomRouteHandler.Example\14.1. CustomRouteHandler.Example.csproj", "{1E246C59-271D-479C-99DD-17367CA843A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,10 @@ Global
 		{C85A54A5-09E1-4598-999A-8F79FB36603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85A54A5-09E1-4598-999A-8F79FB36603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85A54A5-09E1-4598-999A-8F79FB36603B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E246C59-271D-479C-99DD-17367CA843A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E246C59-271D-479C-99DD-17367CA843A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E246C59-271D-479C-99DD-17367CA843A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E246C59-271D-479C-99DD-17367CA843A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +47,6 @@ Global
 		{30C35A09-FFC8-4488-A15F-58CA7A62EA32} = {46B45F7B-A909-4BA2-A716-2353D9EAE5F9}
 		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9} = {46B45F7B-A909-4BA2-A716-2353D9EAE5F9}
 		{C85A54A5-09E1-4598-999A-8F79FB36603B} = {F935BCF0-7E1B-436F-80CE-D5CC65C6C2C2}
+		{1E246C59-271D-479C-99DD-17367CA843A3} = {4AA761A7-7525-4851-9661-6F0F00C0633F}
 	EndGlobalSection
 EndGlobal
