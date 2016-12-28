@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1. DependencyInjection.Ninject", "Dependency Injection\6.1. DependencyInjection.Ninject\6.1. DependencyInjection.Ninject.csproj", "{30C35A09-FFC8-4488-A15F-58CA7A62EA32}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Routes", "Routes", "{4AA761A7-7525-4851-9661-6F0F00C0633F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.1. CustomRouteHandler.Example", "Routes\14.1. CustomRouteHandler.Example\14.1. CustomRouteHandler.Example.csproj", "{1E246C59-271D-479C-99DD-17367CA843A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensibility", "Extensibility", "{509ECAAC-44A9-4F95-86F6-73CB2F77C292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.1. Controllers.Extensibility", "Extensibility\17.1. Controllers.Extensibility\17.1. Controllers.Extensibility.csproj", "{4FF4A413-ED86-4502-8551-DF905F76BF9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{1E246C59-271D-479C-99DD-17367CA843A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E246C59-271D-479C-99DD-17367CA843A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E246C59-271D-479C-99DD-17367CA843A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF4A413-ED86-4502-8551-DF905F76BF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF4A413-ED86-4502-8551-DF905F76BF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF4A413-ED86-4502-8551-DF905F76BF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF4A413-ED86-4502-8551-DF905F76BF9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +56,6 @@ Global
 		{A3E74CC1-8F53-4514-9E01-8808BD93B9F9} = {46B45F7B-A909-4BA2-A716-2353D9EAE5F9}
 		{C85A54A5-09E1-4598-999A-8F79FB36603B} = {F935BCF0-7E1B-436F-80CE-D5CC65C6C2C2}
 		{1E246C59-271D-479C-99DD-17367CA843A3} = {4AA761A7-7525-4851-9661-6F0F00C0633F}
+		{4FF4A413-ED86-4502-8551-DF905F76BF9E} = {509ECAAC-44A9-4F95-86F6-73CB2F77C292}
 	EndGlobalSection
 EndGlobal
