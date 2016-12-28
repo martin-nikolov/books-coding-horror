@@ -1,0 +1,13 @@
+﻿@model HandleErrorInfo
+
+<hgroup>
+    <h1>Not found.</h1>
+    <h2>An error occurred while processing your request.</h2>
+</hgroup>
+
+@if (Model != null && Model.Exception != null)
+{
+    <hgroup>
+        <h3>@Model.Exception.Message.</h3>
+    </hgroup>
+}
