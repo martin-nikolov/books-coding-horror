@@ -7,13 +7,13 @@
     {
         internal static void Main()
         {
-            MainEntryPoint.DoSomeWork();
-            MainEntryPoint.DoSomeWork();
+            MainEntryPoint.DoSomeWorkAsync();
+            MainEntryPoint.DoSomeWorkAsync();
 
             Console.ReadLine();
         }
 
-        internal static async Task DoSomeWork()
+        internal static async Task DoSomeWorkAsync()
         {
             Console.WriteLine(1);
 

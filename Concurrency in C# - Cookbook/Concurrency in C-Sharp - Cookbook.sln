@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2. Intro to Async Program
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2. Deadlock using Wait", "Introduction\1.2. Deadlock using Wait\1.2. Deadlock using Wait.csproj", "{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{48BA241E-3913-4B55-A1EA-E41E993DD055}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BA241E-3913-4B55-A1EA-E41E993DD055}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BA241E-3913-4B55-A1EA-E41E993DD055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{48BA241E-3913-4B55-A1EA-E41E993DD055} = {BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}
+		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4} = {BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}
 	EndGlobalSection
 EndGlobal
