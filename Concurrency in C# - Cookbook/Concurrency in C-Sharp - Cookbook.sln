@@ -19,6 +19,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 3. Report Progress", "As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 4. Exception handling", "Async Basics\2. 4. Exception handling\2. 4. Exception handling.csproj", "{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parallel Basics", "Parallel Basics", "{F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. 1. Parallel Invocation", "Parallel Basics\3. 1. Parallel Invocation\3. 1. Parallel Invocation.csproj", "{CBE4531B-73B9-4852-84E1-C3B4068DFB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. 2. Dynamic Parallelism", "Parallel Basics\3. 2. Dynamic Parallelism\3. 2. Dynamic Parallelism.csproj", "{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +55,14 @@ Global
 		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE4531B-73B9-4852-84E1-C3B4068DFB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE4531B-73B9-4852-84E1-C3B4068DFB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE4531B-73B9-4852-84E1-C3B4068DFB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE4531B-73B9-4852-84E1-C3B4068DFB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +74,7 @@ Global
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{508DB90B-5E3F-47A2-94D2-A15A256F62CF} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5} = {29638E83-5CB9-4962-92A9-11540E466D70}
+		{CBE4531B-73B9-4852-84E1-C3B4068DFB47} = {F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}
+		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD} = {F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}
 	EndGlobalSection
 EndGlobal
