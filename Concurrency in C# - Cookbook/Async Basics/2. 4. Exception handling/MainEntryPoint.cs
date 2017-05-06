@@ -14,8 +14,8 @@
 
         private static async Task ObserveOneExceptionAsync()
         {
-            var task1 = ThrowNotImplementedException();
-            var task2 = ThrowInvalidOperationException();
+            var task1 = ThrowNotImplementedExceptionAsync();
+            var task2 = ThrowInvalidOperationExceptionAsync();
 
             Console.WriteLine("Waiting the tasks...");
 
@@ -31,8 +31,8 @@
 
         private static async Task ObserveAllExceptionsAsync()
         {
-            var task1 = ThrowNotImplementedException();
-            var task2 = ThrowInvalidOperationException();
+            var task1 = ThrowNotImplementedExceptionAsync();
+            var task2 = ThrowInvalidOperationExceptionAsync();
 
             Console.WriteLine("Waiting the tasks...");
 
@@ -49,13 +49,13 @@
         }
 
         /// !IMPORTANT: if we skip the 'async' keyword the exception is thrown immediately after method invocation (line 17 and line 34)
-        private static async Task<Task> ThrowNotImplementedException()
+        private static async Task ThrowNotImplementedExceptionAsync()
         {
             throw new NotImplementedException();
         }
 
         /// !IMPORTANT: if we skip the 'async' keyword the exception is thrown immediately after method invocation (line 18 and line 35)
-        private static async Task<Task> ThrowInvalidOperationException()
+        private static async Task ThrowInvalidOperationExceptionAsync()
         {
             throw new InvalidOperationException();
         }
