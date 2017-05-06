@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1. Concurrent processing"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 2. Simple timeout", "Async Basics\2. 2. Simple timeout\2. 2. Simple timeout.csproj", "{3074728B-5B64-4685-9CC0-1FE748A43B2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 3. Report Progress", "Async Basics\2. 3. Report Progress\2. 3. Report Progress.csproj", "{508DB90B-5E3F-47A2-94D2-A15A256F62CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{26E4FDE2-782C-4632-82F4-5B54B5EE94A4} = {BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}
 		{2A0B7294-2C4A-48A3-BBC7-43844CE79ABC} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C} = {29638E83-5CB9-4962-92A9-11540E466D70}
+		{508DB90B-5E3F-47A2-94D2-A15A256F62CF} = {29638E83-5CB9-4962-92A9-11540E466D70}
 	EndGlobalSection
 EndGlobal
