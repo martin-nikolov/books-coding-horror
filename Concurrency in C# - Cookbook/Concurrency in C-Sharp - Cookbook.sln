@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2. Intro to Async Programming", "Introduction\1.2. Intro to Async Programming\1.2. Intro to Async Programming.csproj", "{48BA241E-3913-4B55-A1EA-E41E993DD055}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. 2. Intro to Async Programming", "Introduction\1. 2. Intro to Async Programming\1. 2. Intro to Async Programming.csproj", "{48BA241E-3913-4B55-A1EA-E41E993DD055}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Introduction", "Introduction", "{BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.2. Deadlock using Wait", "Introduction\1.2. Deadlock using Wait\1.2. Deadlock using Wait.csproj", "{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. 2. Deadlock using Wait", "Introduction\1. 2. Deadlock using Wait\1. 2. Deadlock using Wait.csproj", "{26E4FDE2-782C-4632-82F4-5B54B5EE94A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Async Basics", "Async Basics", "{29638E83-5CB9-4962-92A9-11540E466D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.1. Concurrent processing", "Async Basics\2.1. Concurrent processing\2.1. Concurrent processing.csproj", "{2A0B7294-2C4A-48A3-BBC7-43844CE79ABC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 1. Concurrent processing", "Async Basics\2. 1. Concurrent processing\2. 1. Concurrent processing.csproj", "{2A0B7294-2C4A-48A3-BBC7-43844CE79ABC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 2. Simple timeout", "Async Basics\2. 2. Simple timeout\2. 2. Simple timeout.csproj", "{3074728B-5B64-4685-9CC0-1FE748A43B2C}"
 EndProject
