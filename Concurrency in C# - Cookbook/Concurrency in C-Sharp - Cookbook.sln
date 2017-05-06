@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 2. Simple timeout", "Asy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 3. Report Progress", "Async Basics\2. 3. Report Progress\2. 3. Report Progress.csproj", "{508DB90B-5E3F-47A2-94D2-A15A256F62CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. 4. Exception handling", "Async Basics\2. 4. Exception handling\2. 4. Exception handling.csproj", "{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{508DB90B-5E3F-47A2-94D2-A15A256F62CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{2A0B7294-2C4A-48A3-BBC7-43844CE79ABC} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{3074728B-5B64-4685-9CC0-1FE748A43B2C} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{508DB90B-5E3F-47A2-94D2-A15A256F62CF} = {29638E83-5CB9-4962-92A9-11540E466D70}
+		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5} = {29638E83-5CB9-4962-92A9-11540E466D70}
 	EndGlobalSection
 EndGlobal
