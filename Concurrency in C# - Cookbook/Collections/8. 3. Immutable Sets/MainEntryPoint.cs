@@ -51,7 +51,7 @@
             sortedSet = sortedSet.Remove(4);
 
             Console.WriteLine("SortedSet: {0}", string.Join(", ", sortedSet));
-            Console.WriteLine("Count: {0}", sortedSet.Count());
+            Console.WriteLine("Count: {0}", sortedSet.Count);
             Console.WriteLine("{0}", new string('-', 30));
         }
     }
