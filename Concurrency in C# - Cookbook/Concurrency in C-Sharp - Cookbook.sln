@@ -43,6 +43,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 6. Blocking Queues", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 7. Blocking Stacks and Bags", "Collections\8. 7. Blocking Stacks and Bags\8. 7. Blocking Stacks and Bags.csproj", "{FE5F06E3-308E-4879-B73A-3270598DEB69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 8. Asynchonous Queues", "Collections\8. 8. Asynchonous Queues\8. 8. Asynchonous Queues.csproj", "{33E4038A-D41B-4F9C-B0F8-95F754FD8C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 9. Asynchronous Stacks and Bags", "Collections\8. 9. Asynchronous Stacks and Bags\8. 9. Asynchronous Stacks and Bags.csproj", "{58A1F8BB-6E54-4719-8530-0FF0ED05785C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 10. Blocking and Asynchronous Queues", "Collections\8. 10. Blocking and Asynchronous Queues\8. 10. Blocking and Asynchronous Queues.csproj", "{20092C44-3688-47EE-8368-BB4F88B568AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +119,18 @@ Global
 		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E4038A-D41B-4F9C-B0F8-95F754FD8C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E4038A-D41B-4F9C-B0F8-95F754FD8C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E4038A-D41B-4F9C-B0F8-95F754FD8C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E4038A-D41B-4F9C-B0F8-95F754FD8C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A1F8BB-6E54-4719-8530-0FF0ED05785C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A1F8BB-6E54-4719-8530-0FF0ED05785C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A1F8BB-6E54-4719-8530-0FF0ED05785C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A1F8BB-6E54-4719-8530-0FF0ED05785C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20092C44-3688-47EE-8368-BB4F88B568AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20092C44-3688-47EE-8368-BB4F88B568AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20092C44-3688-47EE-8368-BB4F88B568AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20092C44-3688-47EE-8368-BB4F88B568AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,5 +152,8 @@ Global
 		{2E00A52C-BF1B-4C13-AB2A-CCE31832D62F} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{A0C2F536-2FB0-4DE6-8801-BCE330E255F6} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{FE5F06E3-308E-4879-B73A-3270598DEB69} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{33E4038A-D41B-4F9C-B0F8-95F754FD8C13} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{58A1F8BB-6E54-4719-8530-0FF0ED05785C} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{20092C44-3688-47EE-8368-BB4F88B568AC} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 	EndGlobalSection
 EndGlobal
