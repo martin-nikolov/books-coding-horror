@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 1. Immutable Stack", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 1. Immutable Queue", "Collections\8. 1. Immutable Queue\8. 1. Immutable Queue.csproj", "{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 2. Immutable Lists", "Collections\8. 2. Immutable Lists\8. 2. Immutable Lists.csproj", "{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 3. Immutable Sets", "Collections\8. 3. Immutable Sets\8. 3. Immutable Sets.csproj", "{7C0A6032-713D-4ECA-A071-2E2B46DE2584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0A6032-713D-4ECA-A071-2E2B46DE2584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0A6032-713D-4ECA-A071-2E2B46DE2584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0A6032-713D-4ECA-A071-2E2B46DE2584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0A6032-713D-4ECA-A071-2E2B46DE2584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,5 +104,7 @@ Global
 		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD} = {F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}
 		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{8E7D0E4B-F4B8-4AFB-B258-B872C1CF3E14} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{7C0A6032-713D-4ECA-A071-2E2B46DE2584} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 	EndGlobalSection
 EndGlobal

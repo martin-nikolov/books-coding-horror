@@ -16,11 +16,11 @@
     {
         internal static void Main()
         {
-            FirstDemo();
-            SecondDemo();
+            ImmutableStackDemo();
+            ImmutableStackWithSnapshotDemo();
         }
 
-        private static void FirstDemo()
+        private static void ImmutableStackDemo()
         {
             var stack = ImmutableStack<int>.Empty;
 
@@ -37,7 +37,7 @@
             Console.WriteLine("{0}", new string('-', 30));
         }
 
-        private static void SecondDemo()
+        private static void ImmutableStackWithSnapshotDemo()
         {
             var stack = ImmutableStack<int>.Empty;
             stack = stack.Push(1);
