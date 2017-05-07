@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. 1. Parallel Invocation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. 2. Dynamic Parallelism", "Parallel Basics\3. 2. Dynamic Parallelism\3. 2. Dynamic Parallelism.csproj", "{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Collections", "Collections", "{1E57BB7C-242E-4224-A72F-02E279D58840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 1. Immutable Stack", "Collections\8. 1. Immutable Stack\8. 1. Immutable Stack.csproj", "{C8AFA609-F5A7-4F47-B0FB-F8399DB97209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 1. Immutable Queue", "Collections\8. 1. Immutable Queue\8. 1. Immutable Queue.csproj", "{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +69,14 @@ Global
 		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,5 +90,7 @@ Global
 		{7587F5D5-A1C4-496E-BF37-D42B5B9B8AA5} = {29638E83-5CB9-4962-92A9-11540E466D70}
 		{CBE4531B-73B9-4852-84E1-C3B4068DFB47} = {F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}
 		{D3AA7D9E-7FB0-43D5-A94D-C8C1286BABFD} = {F2BB6ECB-0B8B-4DC8-99AC-2C2A66A4A841}
+		{C8AFA609-F5A7-4F47-B0FB-F8399DB97209} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{40AF4733-5ADC-4BD7-89A9-7216015C6E3A} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 	EndGlobalSection
 EndGlobal
