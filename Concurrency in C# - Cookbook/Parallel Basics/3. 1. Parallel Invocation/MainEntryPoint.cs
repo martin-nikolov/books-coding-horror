@@ -20,8 +20,8 @@
         {
             var stopWatch = Stopwatch.StartNew();
             {
-                ProcessPartialArray(array, 0, array.Length/2);
-                ProcessPartialArray(array, array.Length/2, array.Length);
+                ProcessPartialArray(array, 0, array.Length / 2);
+                ProcessPartialArray(array, array.Length / 2, array.Length);
             }
 
             Console.WriteLine("Elapsed time: {0}\n", stopWatch.Elapsed);
@@ -31,9 +31,8 @@
         {
             var stopWatch = Stopwatch.StartNew();
             {
-                Parallel.Invoke(
-                    () => ProcessPartialArray(array, 0, array.Length / 2),
-                    () => ProcessPartialArray(array, array.Length / 2, array.Length));
+                Parallel.Invoke(() => ProcessPartialArray(array, 0, array.Length / 2),
+                                () => ProcessPartialArray(array, array.Length / 2, array.Length));
             }
 
             Console.WriteLine("Elapsed time: {0}", stopWatch.Elapsed);
