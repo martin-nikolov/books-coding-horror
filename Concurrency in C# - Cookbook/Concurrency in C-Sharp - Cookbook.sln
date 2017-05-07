@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 5. Threadsafe Dictionari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 6. Blocking Queues", "Collections\8. 6. Blocking Queues\8. 6. Blocking Queues.csproj", "{A0C2F536-2FB0-4DE6-8801-BCE330E255F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8. 7. Blocking Stacks and Bags", "Collections\8. 7. Blocking Stacks and Bags\8. 7. Blocking Stacks and Bags.csproj", "{FE5F06E3-308E-4879-B73A-3270598DEB69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -107,6 +109,10 @@ Global
 		{A0C2F536-2FB0-4DE6-8801-BCE330E255F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C2F536-2FB0-4DE6-8801-BCE330E255F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C2F536-2FB0-4DE6-8801-BCE330E255F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5F06E3-308E-4879-B73A-3270598DEB69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -127,5 +133,6 @@ Global
 		{3C5C5F0C-E027-42E6-89D7-89E70006E510} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{2E00A52C-BF1B-4C13-AB2A-CCE31832D62F} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{A0C2F536-2FB0-4DE6-8801-BCE330E255F6} = {1E57BB7C-242E-4224-A72F-02E279D58840}
+		{FE5F06E3-308E-4879-B73A-3270598DEB69} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 	EndGlobalSection
 EndGlobal
