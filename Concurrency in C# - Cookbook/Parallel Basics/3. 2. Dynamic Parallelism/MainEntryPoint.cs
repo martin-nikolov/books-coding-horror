@@ -7,7 +7,7 @@
 
     public class MainEntryPoint
     {
-        private static void Main()
+        internal static void Main()
         {
             try
             {

@@ -53,6 +53,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cancellation", "Cancellatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9. 1. Cancellation of simple request", "Cancellation\9. 1. Cancellation of simple request\9. 1. Cancellation of simple request.csproj", "{25BF8C25-4395-4F37-AB2F-81EB88FF4933}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functional-Friendly OOP", "Functional-Friendly OOP", "{C31798E2-DE66-4FFC-B56F-3ADAD9E16B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. 2. Async Construction Factory", "Functional-Friendly OOP\10. 2. Async Construction Factory\10. 2. Async Construction Factory.csproj", "{4E8D8B86-5594-409B-9DE6-EAEB36169656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. 3. Async Initialization Pattern", "Functional-Friendly OOP\10. 3. Async Initialization Pattern\10. 3. Async Initialization Pattern.csproj", "{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -139,6 +145,14 @@ Global
 		{25BF8C25-4395-4F37-AB2F-81EB88FF4933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25BF8C25-4395-4F37-AB2F-81EB88FF4933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25BF8C25-4395-4F37-AB2F-81EB88FF4933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E8D8B86-5594-409B-9DE6-EAEB36169656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E8D8B86-5594-409B-9DE6-EAEB36169656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E8D8B86-5594-409B-9DE6-EAEB36169656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E8D8B86-5594-409B-9DE6-EAEB36169656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,5 +178,7 @@ Global
 		{58A1F8BB-6E54-4719-8530-0FF0ED05785C} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{20092C44-3688-47EE-8368-BB4F88B568AC} = {1E57BB7C-242E-4224-A72F-02E279D58840}
 		{25BF8C25-4395-4F37-AB2F-81EB88FF4933} = {7FAADE3A-243C-45ED-9F79-A5C0B3A4F2DE}
+		{4E8D8B86-5594-409B-9DE6-EAEB36169656} = {C31798E2-DE66-4FFC-B56F-3ADAD9E16B49}
+		{1EA3158B-E1F0-4B8D-8616-20823DB7FDCF} = {C31798E2-DE66-4FFC-B56F-3ADAD9E16B49}
 	EndGlobalSection
 EndGlobal
