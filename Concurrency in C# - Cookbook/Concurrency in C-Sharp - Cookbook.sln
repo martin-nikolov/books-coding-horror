@@ -69,6 +69,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Synchronization", "Synchron
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. 2. Async Locks", "Synchronization\11. 2. Async Locks\11. 2. Async Locks.csproj", "{B1A3D179-1314-4984-B549-506AE377619D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. 2. Hijacked nested Task using Wait", "Introduction\1. 2. Hijacked nested Task using Wait\1. 2. Hijacked nested Task using Wait.csproj", "{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{B1A3D179-1314-4984-B549-506AE377619D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1A3D179-1314-4984-B549-506AE377619D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1A3D179-1314-4984-B549-506AE377619D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,5 +216,6 @@ Global
 		{8F2BEEF3-563F-4216-B364-2A8DD65A0CB9} = {C31798E2-DE66-4FFC-B56F-3ADAD9E16B49}
 		{F36E5C80-FB9F-4028-B041-2B93C10DC8D4} = {C31798E2-DE66-4FFC-B56F-3ADAD9E16B49}
 		{B1A3D179-1314-4984-B549-506AE377619D} = {3ADF28C0-BE27-45D6-94D8-E8C11ED99177}
+		{8C0665CA-FB9D-4B6E-8823-5BA5607AFB0C} = {BE87F886-A0CB-4849-A5EC-C6A9C73AEBF3}
 	EndGlobalSection
 EndGlobal
